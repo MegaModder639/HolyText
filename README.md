@@ -4,7 +4,7 @@ A simple Python library.
 
 ## Installation
 
-pip install holytext
+pip install holytext-lib
 
 ## Example
 
