@@ -4,7 +4,8 @@ __all__ = [
     "upper_first",
     "count_words",
     "is_palindrome",
-    "truncate"
+    "truncate",
+    "slugify"
 ]
 
 from .transform import reverse, upper_first
