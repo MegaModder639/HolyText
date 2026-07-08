@@ -5,9 +5,13 @@ __all__ = [
     "count_words",
     "is_palindrome",
     "truncate",
-    "slugify"
+    "slugify",
+    "love",
+    "birthday"
 ]
 
 from .transform import reverse, upper_first
 from .analyze import count_words, is_palindrome
 from .format import truncate, slugify
+from .l_magic import love
+from .b_magic import birthday
