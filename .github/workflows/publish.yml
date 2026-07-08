@@ -4,12 +4,12 @@ on:
   release:
     types: [published]
 
+permissions:
+  id-token: write
+
 jobs:
   publish:
     runs-on: ubuntu-latest
-
-    permissions:
-        id-token: write
 
     steps:
       - name: Get code
@@ -22,7 +22,7 @@ jobs:
 
       - name: Install build tools
         run: |
-          pip install build twine
+          pip install build
 
       - name: Build package
         run: |
